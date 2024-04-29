@@ -1,0 +1,20 @@
+mkdir: Make directory
+mkdir [directory_name]
+pwd: Print/Present working directory
+pwd
+ls: List Command
+ls
+cd 
+change directory
+cd ..: Go back one directory.
+cd ..
+touch text.txt 
+create file
+rm remove file
+
+cp: copy files
+cp[source_file] [destination_path]
+mv: moving file
+mv: Rename files
+
+mv [old_filename] [new_filename]
