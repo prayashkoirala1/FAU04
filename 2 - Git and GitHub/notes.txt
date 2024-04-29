@@ -12,6 +12,6 @@ shows status of files
 git commit -m "Description"(set a save point)
 create commit
 
-WORK>DRAFT>COMMIT
-in short, staging area in Git allows for selective committing, enabling you to choose which changes to include in a commit.
+WORK>DRAFT>COMMITs
+in short, staging area in Git allows for selectivse committing, enabling you to choose which changes to include in a commit.
 It provides a safety net by allowing you to review and experiment with changes before finalizing them.
