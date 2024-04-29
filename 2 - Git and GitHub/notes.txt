@@ -1,5 +1,13 @@
 git config --global user.name "Username"
 git config --global user.email "youremail@gmail.com"
 Initializing a Git Repository
-
 git init
+
+Adding files into the staging area(prepare files to set any checkpoints)
+git add .(. means all files with changes)
+
+git status
+shows status of files
+
+git commit -m "Description"(set a save point)
+create commit
