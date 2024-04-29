@@ -1,9 +1,9 @@
 git config --global user.name "Username"
 git config --global user.email "youremail@gmail.com"
 Initializing a Git Repository
-git init
+git init(initializing working area)
 
-Adding files into the staging area(prepare files to set any checkpoints)
+Adding files into the staging area(DRAFT/prepare files to set any checkpoints)
 git add .(. means all files with changes)
 
 git status
@@ -11,3 +11,7 @@ shows status of files
 
 git commit -m "Description"(set a save point)
 create commit
+
+WORK>DRAFT>COMMIT
+in short, staging area in Git allows for selective committing, enabling you to choose which changes to include in a commit.
+It provides a safety net by allowing you to review and experiment with changes before finalizing them.
