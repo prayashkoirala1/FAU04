@@ -15,3 +15,12 @@ create commit
 WORK>DRAFT>COMMITs
 in short, staging area in Git allows for selectivse committing, enabling you to choose which changes to include in a commit.
 It provides a safety net by allowing you to review and experiment with changes before finalizing them.
+
+Branching
+two person working on a file branch out with their own changes. git facilitates these different instances and then help merge later.
+Note: safe version is locked and is not affected by changes from other branches. Also, called main branch.
+* shows at what branch we are at.
+How to switch to branch=> git branch checkout
+
+
+
