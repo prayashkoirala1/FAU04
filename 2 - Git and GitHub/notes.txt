@@ -21,6 +21,6 @@ two person working on a file branch out with their own changes. git facilitates 
 Note: safe version is locked and is not affected by changes from other branches. Also, called main branch.
 * shows at what branch we are at.
 How to switch to branch=> git branch checkout
-
+git log--oneline summarized git log
 
 
