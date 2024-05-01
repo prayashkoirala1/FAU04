@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating forms</title>
+</head>
+<body>
+    <h1>Creating forms</h1>
+    <form action="">
+        <div>
+            <!-- Name in input name is variable name for and id are ids -->
+            <label for="name">Name:</label>
+            <input 
+                type="text"
+                name="name"
+                id="name" 
+                placeholder="ex. jon doe"
+                required   
+            >
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input 
+            type="text"
+            name="email"
+            id="email"
+            placeholder="john.example@gmail.com"
+            required
+            >
+        </div>
+        <div>
+            <!-- password -->
+            <label for="pass">Password</label>
+            <input 
+                type="password"
+                name="password"
+                id="pass"
+                placeholder="********"
+                required
+            >
+        </div>
+    </form>
+</body>
+</html>
